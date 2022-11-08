@@ -1,0 +1,353 @@
+div.disfix {
+  position: sticky;
+  z-index: 3;
+  align-self: flex-start;
+  top: 0;
+  margin: 0 auto;
+  background-color: white;
+  direction: rtl;
+}
+header > a > img {
+  width: 100%;
+}
+/*logo va search bar*/
+div.headbala > a.digi > img {
+  width: 10%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 1%;
+}
+/*
+div.headbala>div.emtehani{
+  height: fit-content;
+  width: 88%;
+  background-color: aqua;
+}*/
+div.headbala > a.search > img {
+  width: 88%;
+  margin-top: 3px;
+}
+div.headbala > form > div.em {
+  width: auto;
+  display: inline-block;
+  height: inherit;
+}
+div.headbala > form {
+  display: inline;
+}
+div.headbala > form > input[type="search"] {
+  width: 40%;
+  padding-right: 3px;
+  margin-right: 1.5%;
+  height: auto;
+  border-radius: 5px;
+  font-size: medium;
+  display: inline-block;
+  background-color: #cecaca63;
+  font-family: Yekan;
+  outline-width: 0px;
+  padding-right: 8px;
+  border-width: 0;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+}
+div.headbala > div.entry {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  height: 30px;
+  color: #5a5a5a;
+  margin-top: 0.8%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 5px;
+}
+div.headbala > div.entry2 {
+  font-family: Yekan;
+  font-size: small;
+  text-align: center;
+  width: auto;
+  padding: 0% 1%;
+  border-radius: 5px;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  display: inline-block;
+  left: 0;
+  margin-left: 5%;
+  position: absolute;
+  margin-block-end: 2px;
+  height: 30px;
+  background-color: white;
+  color: #0c0c0c;
+  border: 1px solid #a5a5a56b;
+}
+
+/*menu bala*/
+nav.menu > h4 {
+  width: 100%;
+}
+nav.menu > h4 > ul {
+  width: inherit;
+  height: inherit;
+  padding: 0 10px;
+  direction: rtl;
+}
+nav.menu > h4 > ul > li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+}
+nav.menu > h4 > ul > li > a {
+  font-size: auto;
+  font-family: Yekan;
+  direction: rtl;
+  text-decoration: none;
+  display: inline;
+  margin-top: 2px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 90%;
+  padding: 0 10px;
+  text-align: center;
+  transition: all 50ms linear;
+}
+nav.menu > h4 > ul > li > a.bikhod {
+  margin: 0% 0%;
+  font-size: 0%;
+  color: white;
+  width: 0%;
+}
+nav.menu > h4 > ul > li > a.daste {
+  margin-right: 0%;
+  margin-left: 1%;
+  font-size: auto;
+  font-family: Yekan;
+  direction: rtl;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  padding: 0 2px;
+  text-align: center;
+  transition: all 50ms linear;
+}
+nav.menu > h4 > ul > li > div.submenu {
+  width: calc(90vw - 50px);
+  height: 450px;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  display: none;
+  position: absolute;
+  margin-right: 1%;
+}
+
+nav.menu > h4 > ul > li:hover > div.submenu {
+  right: 0;
+  display: block;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right {
+  width: 15%;
+  height: inherit;
+  background-color: white;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul {
+  width: 100%;
+  height: inherit;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul > li {
+  width: inherit;
+  height: 50px;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  line-height: 50px;
+  font-family: Yekan;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-right: 20px;
+  transition: 200ms;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul > li > a:hover {
+  background-color: rgb(243, 243, 243);
+  color: crimson;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul > li > div.links {
+  width: 85%;
+  height: 450px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 1px solid lightgray;
+  display: none;
+}
+nav.menu > h4 > ul > li > div.submenu > div.right > ul > li:hover > div.links {
+  display: block;
+}
+nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.first,nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.second ,nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.third, nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.fourth  {
+    height: auto;
+    display: inline-block;
+    width: 23%;
+    padding-top: 20px;
+    padding-right: 8px;
+}
+nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.first >p,nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.second >p, nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.third>p, nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.fourth>p{
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 150;
+    color: #5a5a5a;
+}
+nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.first >p::first-line,nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.second >p::first-line,nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.third>p::first-line, nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.fourth>p::first-line{
+    color: crimson;
+    font-weight: 300;
+  }
+
+nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.kol {
+  display: inline-block;
+  width: 100%;
+  height: inherit;
+}
+nav.menu
+  > h4
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.kol >a>img {
+  display: block;
+  width: 100%;
+  height: inherit;
+}
+nav.menu > h4 > ul > li > a:hover {
+  color: dimgray;
+  border-bottom: 3px solid red;
+  transform: scale(1, 1);
+}

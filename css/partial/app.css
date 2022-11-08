@@ -1,0 +1,36 @@
+/*
+    author: A.Eshghi
+*/
+/*digiclub*/
+div.outro > div.app {
+  margin: 10px auto;
+  width: 98%;
+  height: auto;
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #051e44,
+    #042450,
+    #05295e,
+    #072f6b
+  );
+  border-radius: 10px;
+  direction: rtl;
+}
+
+div.outro > div.app > img {
+  text-align: left;
+  width: 15%;
+  display: inline-block;
+  margin-top: 3px;
+  margin-right: 1%;
+  border-radius: 10px;
+  margin-left: 29%;
+}
+div.outro > div.app > a.tag > img {
+  text-align: right;
+  width: 13%;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}

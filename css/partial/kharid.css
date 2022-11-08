@@ -1,0 +1,23 @@
+/* خرید پستو و تاژ و اکتیدنت و مزپف*/
+div.kharid {
+  margin: 10px auto;
+  width: 80%;
+}
+div.kharid > a.aval > img {
+  width: 23.5%;
+  border-radius: 20px;
+  margin-right: 1%;
+}
+div.kharid > a.akhar > img {
+  width: 23.5%;
+  border-radius: 20px;
+  
+}
+div.kharid > a.second > img {
+  width: 23.5%;
+  border-radius: 20px;
+  margin-right: 1%;
+}
+/*
+    author: A.Eshghi
+*/

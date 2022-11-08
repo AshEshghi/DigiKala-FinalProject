@@ -1,0 +1,29 @@
+div.read{
+    width: 80%;
+    height: auto;
+    text-align: right;
+    margin: 10px auto;
+}
+div.read>h3{
+    font-family: Yekan;
+    font-weight: 300;
+}
+div.read>div.part>a{
+    font-family: Yekan;
+    text-decoration: none;
+    color: #0c0c0c;
+    text-align: justify right;
+}
+div.read>div.part>a>img{
+    width: 100%;
+    border-radius: 10px;
+}
+div.read>div.part{
+    flex-direction: column;
+    direction: rtl;
+    width: 20%;
+    border: 1px solid #a5a5a56b;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0% 2.3%;
+}

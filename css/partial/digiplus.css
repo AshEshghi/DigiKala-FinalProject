@@ -1,0 +1,47 @@
+div.digiplus>div.banafsh{
+    width: 80%;
+    height: auto;
+    background-color: #941B80;
+    margin: 10px auto;
+    border-radius: 10px;
+    position: static;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+div.digiplus>div.banafsh>div.row{
+    width: 30%;
+    display: inline-block;
+    direction: rtl;
+    background-color: hotpink;
+    border-radius: 10px;
+    position: relative;
+}
+div.digiplus>div.banafsh>div.row.one{
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+div.digiplus>div.banafsh>div.row.two{
+    background-color: white;
+    margin-right: 1%;
+}
+div.digiplus>div.banafsh>div.row.two>table{
+    width: 100%;
+}
+td.naghd>a>img{
+    width: 100%;
+    border-radius: 10px;
+}
+td.kaala>a>img{
+    width: 100%;
+    border-radius: 10px;
+}
+div.digiplus>div.banafsh>div.row.three{
+    background-color: #941B80;
+    margin-right: 3%;
+}
+div.digiplus>div.banafsh>div.row.three>a>img{
+    width: 100%;
+    object-fit: cover;
+}

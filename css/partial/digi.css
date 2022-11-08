@@ -1,0 +1,43 @@
+/*menu marboot be digi plus va jet va ds va... zir GIF*/
+/*nav.digi > div > a > img {
+  object-fit: contain;
+  width: 7%;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: inline-block;
+}*/
+nav.digi{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+nav.digi > div.hi {
+  display: inline-block;
+  width: 5%;
+  margin-top: 0%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+nav.digi > div.hi > a > img {
+  width: 100%;
+  display: inline-block;
+}
+nav.digi > div.hi > a > img {
+  width: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: inline-block;
+}
+nav.digi > div.hi > a {
+  text-align: center;
+  font-family: Yekan;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+/*
+    author: A.Eshghi
+*/
